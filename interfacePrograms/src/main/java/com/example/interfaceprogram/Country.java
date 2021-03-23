@@ -1,6 +1,6 @@
 package com.example.interfaceprogram;
 
-public class Country {
+public class Country implements Measurable{
     public double area;
     private String country;
 
@@ -13,7 +13,7 @@ public class Country {
 
     }
 
-    public double getArea() {
+    public double getMeasure() {
         return area;
     }
 
